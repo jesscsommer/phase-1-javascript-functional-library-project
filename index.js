@@ -22,3 +22,19 @@ const myMap = (collection, callback) => {
 }
 
 //TODO Pick up at myReduce and build following functions
+
+const myReduce = (collection, callback, acc) => {
+    let accumulator = acc
+    let startArray = collection
+    if (Array.isArray(collection) === false){
+        startArray = Object.values(collection)
+    } 
+    if (!acc) {
+        accumulator = startArray[0]
+        startArray = startArray.slice(1)
+    }
+    for (let elem of startArray){
+        accumulator = callback(accumulator, elem)
+    }
+    return accumulator
+}
