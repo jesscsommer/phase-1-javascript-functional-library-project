@@ -50,3 +50,17 @@ const myFind = (collection, predicate) => {
     return undefined
 }
 
+const myFilter = (collection, predicate) => {
+    let startArray = collection
+    let endArray = []
+    if (Array.isArray(collection) === false){
+        startArray = Object.values(collection)
+    } 
+    for (let elem of startArray){
+        if (predicate(elem) === true) {
+            endArray.push(elem)
+        }
+    }
+    return endArray
+}
+
