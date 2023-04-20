@@ -2,12 +2,12 @@
   "stats": {
     "suites": 11,
     "tests": 27,
-    "passes": 19,
+    "passes": 21,
     "pending": 0,
-    "failures": 8,
-    "start": "2023-04-20T15:16:40.085Z",
-    "end": "2023-04-20T15:16:40.225Z",
-    "duration": 140
+    "failures": 6,
+    "start": "2023-04-20T15:18:45.925Z",
+    "end": "2023-04-20T15:18:46.066Z",
+    "duration": 141
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js myEach calls alert properly on object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,7 +34,7 @@
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js myMap successfully returns a correctly populated array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -83,7 +83,7 @@
     {
       "title": "returns the correct reduced value from object values",
       "fullTitle": "index.js myReduce returns the correct reduced value from object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -97,7 +97,7 @@
     {
       "title": "returns the value if found",
       "fullTitle": "index.js myFind returns the value if found",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -134,20 +134,14 @@
       "fullTitle": "index.js mySize correctly returns the size of the collection when an array is passed",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mySize is not defined\n    at Context.<anonymous> (test/indexTest.js:149:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "mySize is not defined"
-      }
+      "err": {}
     },
     {
       "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
       "fullTitle": "index.js mySize correctly returns the size of the collection (amount of keys) when an object is passed",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mySize is not defined\n    at Context.<anonymous> (test/indexTest.js:153:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "mySize is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns the first element of the collection",
@@ -227,26 +221,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "correctly returns the size of the collection when an array is passed",
-      "fullTitle": "index.js mySize correctly returns the size of the collection when an array is passed",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mySize is not defined\n    at Context.<anonymous> (test/indexTest.js:149:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "mySize is not defined"
-      }
-    },
-    {
-      "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
-      "fullTitle": "index.js mySize correctly returns the size of the collection (amount of keys) when an object is passed",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mySize is not defined\n    at Context.<anonymous> (test/indexTest.js:153:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "mySize is not defined"
-      }
-    },
-    {
       "title": "returns the first element of the collection",
       "fullTitle": "index.js myFirst returns the first element of the collection",
       "duration": 0,
@@ -318,7 +292,7 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js myEach calls alert properly on object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -332,7 +306,7 @@
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js myMap successfully returns a correctly populated array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -381,7 +355,7 @@
     {
       "title": "returns the correct reduced value from object values",
       "fullTitle": "index.js myReduce returns the correct reduced value from object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -395,7 +369,7 @@
     {
       "title": "returns the value if found",
       "fullTitle": "index.js myFind returns the value if found",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -423,6 +397,20 @@
     {
       "title": "correctly returns an empty array if no matching values are found",
       "fullTitle": "index.js myFilter correctly returns an empty array if no matching values are found",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly returns the size of the collection when an array is passed",
+      "fullTitle": "index.js mySize correctly returns the size of the collection when an array is passed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
+      "fullTitle": "index.js mySize correctly returns the size of the collection (amount of keys) when an object is passed",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

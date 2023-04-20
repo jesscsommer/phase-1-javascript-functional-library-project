@@ -64,3 +64,14 @@ const myFilter = (collection, predicate) => {
     return endArray
 }
 
+const mySize = (collection) => {
+    let startArray = collection
+    let counter = 0
+    if (Array.isArray(collection) === false){
+        startArray = Object.values(collection)
+    } 
+    for (let elem of startArray){
+        counter +=1
+    }
+    return counter
+}
