@@ -83,3 +83,11 @@ const myFirst =  (array, integer) => {
         return array.slice(0, integer)
     }
 }
+
+const myLast =  (array, integer) => {
+    if (!!integer === false) {
+        return array.slice(-1)[0]
+    } else {
+        return array.slice(array.length-integer, array.length)
+    }
+}
