@@ -21,8 +21,6 @@ const myMap = (collection, callback) => {
     return endArray
 }
 
-//TODO Pick up at myReduce and build following functions
-
 const myReduce = (collection, callback, acc) => {
     let accumulator = acc
     let startArray = collection
@@ -38,3 +36,17 @@ const myReduce = (collection, callback, acc) => {
     }
     return accumulator
 }
+
+const myFind = (collection, predicate) => {
+    let startArray = collection
+    if (Array.isArray(collection) === false){
+        startArray = Object.values(collection)
+    } 
+    for (let elem of startArray){
+        if (predicate(elem) === true) {
+            return elem
+        }
+    }
+    return undefined
+}
+
