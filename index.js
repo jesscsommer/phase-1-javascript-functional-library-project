@@ -75,3 +75,11 @@ const mySize = (collection) => {
     }
     return counter
 }
+
+const myFirst =  (array, integer) => {
+    if (!!integer === false) {
+        return array[0]
+    } else {
+        return array.slice(0, integer)
+    }
+}

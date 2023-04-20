@@ -2,18 +2,18 @@
   "stats": {
     "suites": 11,
     "tests": 27,
-    "passes": 21,
+    "passes": 23,
     "pending": 0,
-    "failures": 6,
-    "start": "2023-04-20T15:18:45.925Z",
-    "end": "2023-04-20T15:18:46.066Z",
-    "duration": 141
+    "failures": 4,
+    "start": "2023-04-20T15:26:58.966Z",
+    "end": "2023-04-20T15:26:59.108Z",
+    "duration": 142
   },
   "tests": [
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js myEach calls alert with each element passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,7 +41,7 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myMap does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -97,7 +97,7 @@
     {
       "title": "returns the value if found",
       "fullTitle": "index.js myFind returns the value if found",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -148,20 +148,14 @@
       "fullTitle": "index.js myFirst returns the first element of the collection",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myFirst is not defined\n    at Context.<anonymous> (test/indexTest.js:161:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myFirst is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myFirst returns the first n elements of the collection when the second optional argument (n) is provided",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myFirst is not defined\n    at Context.<anonymous> (test/indexTest.js:165:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myFirst is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns the last element of the collection",
@@ -221,26 +215,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "returns the first element of the collection",
-      "fullTitle": "index.js myFirst returns the first element of the collection",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myFirst is not defined\n    at Context.<anonymous> (test/indexTest.js:161:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myFirst is not defined"
-      }
-    },
-    {
-      "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
-      "fullTitle": "index.js myFirst returns the first n elements of the collection when the second optional argument (n) is provided",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myFirst is not defined\n    at Context.<anonymous> (test/indexTest.js:165:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myFirst is not defined"
-      }
-    },
-    {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js myLast returns the last element of the collection",
       "duration": 0,
@@ -285,7 +259,7 @@
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js myEach calls alert with each element passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -313,7 +287,7 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myMap does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -369,7 +343,7 @@
     {
       "title": "returns the value if found",
       "fullTitle": "index.js myFind returns the value if found",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -411,6 +385,20 @@
     {
       "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
       "fullTitle": "index.js mySize correctly returns the size of the collection (amount of keys) when an object is passed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first element of the collection",
+      "fullTitle": "index.js myFirst returns the first element of the collection",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
+      "fullTitle": "index.js myFirst returns the first n elements of the collection when the second optional argument (n) is provided",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
