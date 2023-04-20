@@ -99,3 +99,11 @@ const myKeys = (obj) => {
     }
     return endArray
 }
+
+const myValues = (obj) => {
+    const endArray = []
+    for (let key in obj){
+        endArray.push(obj[key])
+    }
+    return endArray
+}
