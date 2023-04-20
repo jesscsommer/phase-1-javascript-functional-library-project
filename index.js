@@ -91,3 +91,11 @@ const myLast =  (array, integer) => {
         return array.slice(array.length-integer, array.length)
     }
 }
+
+const myKeys = (obj) => {
+    const endArray = []
+    for (let key in obj) {
+        endArray.push(key)
+    }
+    return endArray
+}

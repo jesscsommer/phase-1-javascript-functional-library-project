@@ -2,18 +2,18 @@
   "stats": {
     "suites": 11,
     "tests": 27,
-    "passes": 25,
+    "passes": 26,
     "pending": 0,
-    "failures": 2,
-    "start": "2023-04-20T15:31:45.558Z",
-    "end": "2023-04-20T15:31:45.703Z",
-    "duration": 145
+    "failures": 1,
+    "start": "2023-04-20T15:34:30.997Z",
+    "end": "2023-04-20T15:34:31.137Z",
+    "duration": 140
   },
   "tests": [
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js myEach calls alert with each element passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -90,7 +90,7 @@
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myReduce does not modify the original object",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -139,7 +139,7 @@
     {
       "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
       "fullTitle": "index.js mySize correctly returns the size of the collection (amount of keys) when an object is passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -176,10 +176,7 @@
       "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myKeys is not defined\n    at Context.<anonymous> (test/indexTest.js:241:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myKeys is not defined"
-      }
+      "err": {}
     },
     {
       "title": "does not modify the original object",
@@ -209,16 +206,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "retrieves all the names of the object's own enumerable properties",
-      "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myKeys is not defined\n    at Context.<anonymous> (test/indexTest.js:241:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myKeys is not defined"
-      }
-    },
-    {
       "title": "retrieves all the values of the object's own properties",
       "fullTitle": "index.js myValues retrieves all the values of the object's own properties",
       "duration": 0,
@@ -233,7 +220,7 @@
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js myEach calls alert with each element passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -310,7 +297,7 @@
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myReduce does not modify the original object",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -359,7 +346,7 @@
     {
       "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
       "fullTitle": "index.js mySize correctly returns the size of the collection (amount of keys) when an object is passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -387,6 +374,13 @@
     {
       "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "retrieves all the names of the object's own enumerable properties",
+      "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
